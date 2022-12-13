@@ -1,0 +1,32 @@
+{
+  "name": "mic-manager-web",
+  "version": "1.0.0-dev01",
+  "description": "The official web UI for the MiC-Manager server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnyminerZ/MiC-Manager-Web.git"
+  },
+  "keywords": [
+    "mic",
+    "manager",
+    "server",
+    "ui",
+    "web",
+    "alcoi"
+  ],
+  "author": "Arnau Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnyminerZ/MiC-Manager-Web/issues"
+  },
+  "homepage": "https://github.com/ArnyminerZ/MiC-Manager-Web#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2"
+  }
+}
