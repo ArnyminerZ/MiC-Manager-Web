@@ -1,0 +1,7 @@
+{
+  "login-title": "Login",
+  "login-field-nif": "NIF",
+  "login-field-password": "Password",
+  "validation-error-nif-format": "The NIF introduced is not valid, please check.",
+  "validation-error-nif-letter": "The letter of your DNI is not valid. Please check that you have introduced your DNI correctly."
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The installation's path. Must NOT end with /, and must include the version prefix -->
+    <meta name="mic-manager" content="http://localhost:3000/v1">
+
+    <title>Loading...</title>
+
+    <link href="/dist/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container d-none" id="container">
+    <div class="card" style="width: 50vw;">
+        <img src="" class="card-img-top mic-banner" alt="...">
+        <form class="card-body">
+            <h5 class="card-title" data-translate="login-title"></h5>
+            <div class="mb-3">
+                <label for="nif" class="form-label" data-translate="login-field-nif"></label>
+                <input type="text" class="form-control" id="nif" name="nif" autocomplete="nif" autocapitalize="characters" data-validate="nif" required />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label" data-translate="login-field-password"></label>
+                <input type="password" class="form-control" id="password" name="password" autocomplete="password" required />
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/ArnyminerZ/JavaScript-Translator@1.5.0/dist/js/translate.min.js"></script>
+
+<script src="js/branding.mjs" type="module"></script>
+<script src="js/language.js" type="module"></script>
+<script src="js/form/validator.js" type="module"></script>
+</body>
+</html>
